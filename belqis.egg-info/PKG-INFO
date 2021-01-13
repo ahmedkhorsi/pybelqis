@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: belqis
-Version: 0.0.1
+Version: 0.0.2
 Summary: A python client for Belqis System
 Home-page: https://github.com/ahmedkhorsi/pybelqis
 Author: Ahmed Khorsi

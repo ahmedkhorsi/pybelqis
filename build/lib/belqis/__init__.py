@@ -1,1 +1,1 @@
-from belqis import Belqis
+from belqis.clients import Belqis

@@ -1,7 +1,7 @@
 README.md
 setup.py
 belqis/__init__.py
-belqis/belqis.py
+belqis/clients.py
 belqis.egg-info/PKG-INFO
 belqis.egg-info/SOURCES.txt
 belqis.egg-info/dependency_links.txt

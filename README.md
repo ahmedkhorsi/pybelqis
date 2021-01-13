@@ -1,4 +1,4 @@
-# PyBelqis by Ahmed Khorsi
+# Belqis client by Ahmed Khorsi
 
 This is a python client for Belqis System
 https://belqis.intelgx.com
