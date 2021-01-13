@@ -10,7 +10,7 @@ https://belqis.intelgx.com
 # Usage
 
 ```python
-from belqis import
+from belqis import Belqis
 b = Belqis(token='<put here the token you get from https://belqis.intelgx.com/dashboard>')
 r = b.diac('the sentence you want belqis to diacritize')
 ```
