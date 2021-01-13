@@ -5,7 +5,7 @@ https://belqis.intelgx.com
 
 # Installation
 
-`pip install -U pybelqis`
+`pip install -U belqis`
 
 # Usage
 
