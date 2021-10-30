@@ -12,7 +12,6 @@ https://belqis.intelgx.com
 ```python
 from belqis import Belqis
 b = Belqis(token='<put here the token you get from https://belqis.intelgx.com/dashboard>')
-<<<<<<< HEAD
 
 # Diactritization
 r = b.tashkeel('the sentence you want belqis to diacritize')
@@ -25,9 +24,7 @@ r = b.dictate(<audio_file_url>)
 
 #Speech recognition
 r = b.pronounce(<audio_file_url>, <ref_text>)
-=======
 r = b.diac('the sentence you want belqis to diacritize')
->>>>>>> 3fa9f9fa731d64181bd5593e0ee2130a266af248
 ```
 
 If no error occurs you will get a json. Try it out so you get familiar with the format
