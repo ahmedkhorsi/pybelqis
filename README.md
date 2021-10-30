@@ -15,7 +15,7 @@ then install the package
 # Usage
 
 ```python
-from belqis import Belqis
+from belqis.clients import Belqis
 b = Belqis(token='<put here the token you get from https://belqis.intelgx.com/dashboard>')
 
 # Diactritization
