@@ -8,6 +8,8 @@ https://belqis.intelgx.com
 First you will have to sign up to get an API key 
 https://belqis.intelgx.com/signup
 
+then install the package
+
 `pip install -U belqis`
 
 # Usage
