@@ -4,19 +4,16 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-<<<<<<< HEAD
     name="pybelqis", # Replace with your own username
     version="0.3.0",
     author="Ahmed Khorsi",
     author_email="ahmedkhorsi18@gmail.com",
     description="A python client for Belqis Systems",
-=======
     name="belqis", # Replace with your own username
     version="0.0.2",
     author="Ahmed Khorsi",
     author_email="ahmedkhorsi18@gmail.com",
     description="A python client for Belqis System",
->>>>>>> 3fa9f9fa731d64181bd5593e0ee2130a266af248
     long_description="Allows you to query the services of Belqis system from a python program",
     long_description_content_type="text/markdown",
     url="https://github.com/ahmedkhorsi/pybelqis",
