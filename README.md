@@ -3,7 +3,10 @@
 This is a python client for Belqis System
 https://belqis.intelgx.com
 
+
 # Installation
+First you will have to sign up to get an API key 
+https://belqis.intelgx.com/signup
 
 `pip install -U belqis`
 
