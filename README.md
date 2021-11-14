@@ -10,7 +10,7 @@ https://belqis.intelgx.com/signup
 
 then install the package
 
-`pip install -U belqis`
+`pip install -U pybelqis`
 
 # Usage
 
