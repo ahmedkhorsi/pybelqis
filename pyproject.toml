@@ -16,3 +16,7 @@ classifiers = [
 [project.urls]
 "Homepage" = "https://github.com/ahmedkhorsi/pybelqis"
 "Bug Tracker" = "https://github.com/ahmedkhorsi/pybelqis/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
