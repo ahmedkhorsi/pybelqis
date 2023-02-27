@@ -4,9 +4,9 @@ version = "0.4.0"
 authors = [
   { name="Ahmed Khorsi", email="ahmedkhorsi18@gmail.com" },
 ]
-description = "A python client of Belqis systems"
+description = "A python client of Belqis systems. Allows you to query the services of Belqis systems from a python program"
 readme = "README.md"
-requires-python = ">=3.7"
+requires-python = ">=3.6"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
