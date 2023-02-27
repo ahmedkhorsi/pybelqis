@@ -3,10 +3,13 @@
 This is a python client for Belqis System
 https://belqis.intelgx.com
 
-
 # Installation
-First you will have to sign up to get an API key 
+
+First you will have to sign up to get an API key
 https://belqis.intelgx.com/signup
+
+Then copy the token from the dashboard
+https://belqis.intelgx.com/dashboard
 
 then install the package
 
@@ -15,21 +18,12 @@ then install the package
 # Usage
 
 ```python
-from belqis.clients import Belqis
-b = Belqis(token='<put here the token you get from https://belqis.intelgx.com/dashboard>')
+from pybelqis import Belqis
+b = Belqis(token='<put in here the token you get from https://belqis.intelgx.com/dashboard>')
 
 # Diactritization
-r = b.tashkeel('the sentence you want belqis to diacritize')
+r = b.tashkeel('السلام عليكم')
 
-# NER
-r = b.ner('the sentence you want belqis to diacritize')
-
-#Speech recognition
-r = b.dictate(<audio_file_url>)
-
-#Speech recognition
-r = b.pronounce(<audio_file_url>, <ref_text>)
-r = b.diac('the sentence you want belqis to diacritize')
+# Other services
+IN SHAA ALLAH will be made available
 ```
-
-If no error occurs you will get a json. Try it out so you get familiar with the format
