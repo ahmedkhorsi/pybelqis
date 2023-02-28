@@ -8,11 +8,11 @@ class Belqis:
         transport = AIOHTTPTransport(url="https://sbelqis.intelgx.com/graphql", headers={'Authorization': f'JWT {token}'})
         self.client = Client(transport=transport, fetch_schema_from_transport=True)
 
-    def tashkeel(self, text):
+    async def tashkeel(self, text):
         query = gql(f'''
             query {{
                 tashkeel(sentence: "{text}")
             }}
         ''')
-        return self.client.execute(query)['tashkeel']
+        return await self.client.execute_async(query)
 
