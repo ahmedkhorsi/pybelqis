@@ -1,6 +1,6 @@
 [project]
 name = "pybelqis"
-version = "0.4.2"
+version = "0.4.4"
 authors = [
   { name="Ahmed Khorsi", email="ahmedkhorsi18@gmail.com" },
 ]
@@ -13,7 +13,6 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = [
-  "requests",
   "gql",
   "aiohttp"
 ]
