@@ -28,5 +28,5 @@ r = await b.tashkeel('السلام عليكم')
 print(r)
 
 # Other services
-IN SHAA ALLAH will be made available
+# IN SHAA ALLAH will be made available
 ```
